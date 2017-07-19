@@ -74,3 +74,9 @@
 <a href="https://github.com/mingburnu/DjangoRelationship/blob/master/DjangoRelationship/urls.py">edit DjangoRelationship/urls.py</a>
 
 <a href="http://127.0.0.1:8000/api">127.0.0.1:8000/api</a>
+
+### REFERECE
+<a href="https://docs.djangoproject.com/en/1.11/topics/db/examples/many_to_one/">Many-to-one relationships</a>
+<a href="https://eureka.ykyuen.info/2015/04/07/django-rest-framework-setting-permissions/">DJANGO REST FRAMEWORK – SETTING PERMISSIONS</a><br>
+<a href="http://www.django-rest-framework.org/api-guide/relations/">Serializer relations</a><br>
+<a href="http://www.django-rest-framework.org/api-guide/generic-views/">Generic views</a>
