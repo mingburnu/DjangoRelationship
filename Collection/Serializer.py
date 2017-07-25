@@ -16,6 +16,18 @@ class ReporterSerializer(serializers.ModelSerializer):
         model = Reporter
         fields = ('id', 'first_name', 'last_name', 'email', 'articles')
 
+    def validate(self, data):
+        first_name = data['first_name']
+        last_name = data['last_name']
+
+        if not len(first_name) > 10:
+            raise serializers.ValidationError("Please enter first name >10")
+
+        if not len(last_name) > 10:
+            raise serializers.ValidationError("Please enter last name >10")
+
+        return data
+
 
 class ReporterSerializer2(serializers.ModelSerializer):
     class Meta:

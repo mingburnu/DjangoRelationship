@@ -20,11 +20,6 @@
         'rest_framework',
     ]
     
-    REST_FRAMEWORK = {
-        'DEFAULT_RENDERER_CLASSES': (
-            'rest_framework.renderers.JSONRenderer',
-        ),
-    }
 
 <a href="https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/models.py">edit /DjangoRelationship/Collection/models.py</a>
 
