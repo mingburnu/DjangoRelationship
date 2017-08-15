@@ -4,7 +4,7 @@
 
 > python manage.py startapp Collection
 
-<a href="https://github.com/mingburnu/DjangoRelationship/blob/master/DjangoRelationship/settings.py">edit /DjangoRelationship/settings.py</a>
+[edit /DjangoRelationship/settings.py](https://github.com/mingburnu/DjangoRelationship/blob/master/DjangoRelationship/settings.py)
 
     TEMPLATES = [
         {
@@ -21,7 +21,7 @@
     ]
     
 
-<a href="https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/models.py">edit /DjangoRelationship/Collection/models.py</a>
+[edit /DjangoRelationship/Collection/models.py](https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/models.py)
 
     from django.db import models
     
@@ -43,9 +43,9 @@
         def __str__(self):
             return self.headline
 
-<a href="https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/Serializer.py">edit DjangoRelationship/Collection/Serializer.py</a>
+[edit DjangoRelationship/Collection/Serializer.py](https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/Serializer.py)
 
-<a href="https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/admin.py">edit /DjangoRelationship/Collection/admin.py</a>
+[edit /DjangoRelationship/Collection/admin.py](https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/admin.py)
 
     admin.site.register(Article)
     admin.site.register(Reporter)
@@ -55,7 +55,7 @@
 
 > python manage.py createsuperuser
 
-<a href="https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/views.py">edit DjangoRelationship/Collection/views.py</a>
+[edit DjangoRelationship/Collection/views.py](https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/views.py)
 
     ...
     class ArticleSet(mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets.GenericViewSet):
@@ -64,14 +64,14 @@
         serializer_class = ArticleSerializer
     ...
     
-<a href="https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/urls.py">edit DjangoRelationship/Collection/urls.py</a>
+[edit DjangoRelationship/Collection/urls.py](https://github.com/mingburnu/DjangoRelationship/blob/master/Collection/urls.py)
 
-<a href="https://github.com/mingburnu/DjangoRelationship/blob/master/DjangoRelationship/urls.py">edit DjangoRelationship/urls.py</a>
+[edit DjangoRelationship/urls.py](https://github.com/mingburnu/DjangoRelationship/blob/master/DjangoRelationship/urls.py)
 
-<a href="http://127.0.0.1:8000/api">127.0.0.1:8000/api</a>
+[127.0.0.1:8000/api](http://127.0.0.1:8000/api)
 
 ### REFERECE
-<a href="https://docs.djangoproject.com/en/1.11/topics/db/examples/many_to_one/">Many-to-one relationships</a><br>
-<a href="https://eureka.ykyuen.info/2015/04/07/django-rest-framework-setting-permissions/">DJANGO REST FRAMEWORK – SETTING PERMISSIONS</a><br>
-<a href="http://www.django-rest-framework.org/api-guide/relations/">Serializer relations</a><br>
-<a href="http://www.django-rest-framework.org/api-guide/generic-views/">Generic views</a>
+[Many-to-one relationships](https://docs.djangoproject.com/en/1.11/topics/db/examples/many_to_one/)
+[DJANGO REST FRAMEWORK – SETTING PERMISSIONS](https://eureka.ykyuen.info/2015/04/07/django-rest-framework-setting-permissions/)
+[Serializer relations](http://www.django-rest-framework.org/api-guide/relations/)
+[Generic views](http://www.django-rest-framework.org/api-guide/generic-views/)
