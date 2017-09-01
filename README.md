@@ -71,7 +71,7 @@
 [127.0.0.1:8000/api](http://127.0.0.1:8000/api)
 
 ### REFERECE
-[Many-to-one relationships](https://docs.djangoproject.com/en/1.11/topics/db/examples/many_to_one/)
-[DJANGO REST FRAMEWORK – SETTING PERMISSIONS](https://eureka.ykyuen.info/2015/04/07/django-rest-framework-setting-permissions/)
-[Serializer relations](http://www.django-rest-framework.org/api-guide/relations/)
+[Many-to-one relationships](https://docs.djangoproject.com/en/1.11/topics/db/examples/many_to_one/)<br>
+[DJANGO REST FRAMEWORK – SETTING PERMISSIONS](https://eureka.ykyuen.info/2015/04/07/django-rest-framework-setting-permissions/)<br>
+[Serializer relations](http://www.django-rest-framework.org/api-guide/relations/)<br>
 [Generic views](http://www.django-rest-framework.org/api-guide/generic-views/)
